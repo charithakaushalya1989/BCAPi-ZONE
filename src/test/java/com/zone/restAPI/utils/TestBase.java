@@ -1,9 +1,10 @@
 package com.zone.restAPI.utils;
 
 
+import com.aventstack.extentreports.Status;
 import com.relevantcodes.extentreports.LogStatus;
+import com.zone.restAPI.Listners.ExtentReportListner;
 import org.json.JSONException;
-import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
@@ -38,22 +39,23 @@ public class TestBase extends ExtentReportListner{
             if(result.getStatus()==ITestResult.FAILURE)
             {
                 String TestCaseName = this.getClass().getSimpleName() + " Test Case Failure";
-                test.log(LogStatus.FAIL, TestCaseName);
+                test.log(Status.FAIL, TestCaseName);
                 //  logger.log(LogStatus.FAIL, image, this.getClass().getSimpleName() + " Test Case Failure and Title/Boolean Value Failed");
             }
             else if(result.getStatus()==ITestResult.SUCCESS)
             {
-                test.log(LogStatus.PASS, this.getClass().getSimpleName() + " Test Case Success and Title Verified");
+                test.log(Status.PASS, this.getClass().getSimpleName() + " Test Case Success and Title Verified");
             }
             else if(result.getStatus()==ITestResult.SKIP)
             {
-                test.log(LogStatus.SKIP, this.getClass().getSimpleName() + " Test Case Skipped");
+                test.log(Status.SKIP, this.getClass().getSimpleName() + " Test Case Skipped");
             }
+            //reports.endTest(test);
             reports.flush();
         }
         catch(Throwable t)
         {
-            test.log(LogStatus.ERROR,t.fillInStackTrace());
+            test.log(Status.ERROR,t.fillInStackTrace());
         }
     }
     @AfterClass
