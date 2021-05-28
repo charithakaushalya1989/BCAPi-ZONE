@@ -28,8 +28,6 @@ public class PostUserLoginTest extends TestBase
         softAssert.assertEquals(BCAPIResponseUtil.getValueFromResponse(userAuthResponse,"message"),"Authentication successful", "Invalid Status Return");
         softAssert.assertAll();
 
-
-        System.out.println();
     }
 
     @Test()
