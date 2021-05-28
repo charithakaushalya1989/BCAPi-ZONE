@@ -7,7 +7,7 @@ public class Constant
     public static final String TEST_ENV = System.getProperty("test.env", "QA-PHASE2-UI-ECS1");
     public static String BASE_ENV = System.getProperty("base.env", "qa");
     public static final String BASE_DOMAIN = System.getProperty("base.domain", "");
-    public static final String BASE_URL = System.getProperty("base.url", "https://accounts.google.com/AddSession?hl=en&continue=https://mail.google.com/mail&service=mail&ec=GAlAFw");
+    public static final String BASE_URL = System.getProperty("base.url", "https://www.google.com/");
 
 
     public static final String LOGIN_BASE_PATH = System.getProperty("po.base.path", "/auth");

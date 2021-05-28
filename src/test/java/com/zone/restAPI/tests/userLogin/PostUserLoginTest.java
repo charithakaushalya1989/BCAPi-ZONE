@@ -18,7 +18,7 @@ public class PostUserLoginTest extends TestBase
         iTestContext.setAttribute("feature", "Login - User Login");
     }
 
-    @Test()
+    @Test(priority = 1)
     public void testLoginToBCWithValidUserData()
     {
         PostUserAuthRequest postUserAuthRequest = new PostUserAuthRequest();
@@ -30,7 +30,7 @@ public class PostUserLoginTest extends TestBase
 
     }
 
-    @Test()
+    @Test(priority = 2)
     public void testLoginToBCWithInValidUserData()
     {
         PostUserAuthRequest postUserAuthRequest = new PostUserAuthRequest();
