@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="2" name="TestSuite" time="5.135" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\bc-api"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\bc-api"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\charithaj\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\charithaj\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk-11.0.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.9\bin;C:\Users\charithaj\apache-maven-3.6.3\bin;C:\Users\charithaj\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;."/>
+    <property name="maven.conf" value="C:\Users\charithaj\apache-maven-3.6.3\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\charithaj\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\charithaj"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="charithaj"/>
+    <property name="java.class.path" value="C:\Users\charithaj\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.9"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Users\charithaj\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.zone.restAPI.tests.userLogin.PostUserLoginTest" name="testLoginToSWMSWithInValidUserData" time="2.201">
+    <failure message="The following asserts failed:
+	Invalid status code return expected [401] but found [400],
+	Invalid Status Return expected [null] but found []" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	Invalid status code return expected [401] but found [400],
+	Invalid Status Return expected [null] but found []
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.zone.restAPI.tests.userLogin.PostUserLoginTest.testLoginToSWMSWithInValidUserData(PostUserLoginTest.java:40)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@646d64ab
+test-output/Report/test/  ReportLocation
+testLoginToSWMSWithInValidUserData
+</system-out>
+    <system-err>May 27, 2021 1:32:58 PM com.zone.restAPI.utils.LoggerUtil logINFO
+INFO: 
+
+HEADERS
+{Content-Type=application/json}
+*********
+
+
+May 27, 2021 1:32:58 PM com.zone.restAPI.utils.LoggerUtil logINFO
+INFO: 
+
+REQUEST_URL
+https://accounts.google.com/AddSession?hl=en&amp;continue=https://mail.google.com/mail&amp;service=mail&amp;ec=GAlAFw:8080/auth/login
+*********
+
+
+May 27, 2021 1:32:58 PM com.zone.restAPI.utils.LoggerUtil logINFO
+INFO: 
+
+REQUEST_BODY
+{&quot;agent&quot;:&quot;web&quot;,&quot;password&quot;:&quot;Sysco2021&quot;,&quot;userId&quot;:&quot;OPS$test123&quot;}
+*********
+
+
+May 27, 2021 1:33:00 PM com.zone.restAPI.utils.LoggerUtil logINFO
+INFO: 
+
+RESPONSE
+&lt;html lang=en&gt;&lt;meta charset=utf-8&gt;&lt;meta name=viewport content=&quot;initial-scale=1, minimum-scale=1, width=device-width&quot;&gt;&lt;title&gt;Error 400 (Bad Request)!!1&lt;/title&gt;&lt;style nonce=&quot;0SL7cZbGEE4qe3iT35A8QQ&quot;&gt;*{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{color:#222;text-align:unset;margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px;}* &gt; body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}pre{white-space:pre-wrap;}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}&lt;/style&gt;&lt;div id=&quot;af-error-container&quot;&gt;&lt;a href=//www.google.com&gt;&lt;span id=logo aria-label=Google&gt;&lt;/span&gt;&lt;/a&gt;&lt;p&gt;&lt;b&gt;400.&lt;/b&gt; &lt;ins&gt;That’s an error.&lt;/ins&gt;&lt;p&gt;The server cannot process the request because it is malformed. It should not be retried. &lt;ins&gt;That’s all we know.&lt;/ins&gt;&lt;/div&gt;
+*********
+
+
+May 27, 2021 1:33:00 PM com.zone.restAPI.utils.LoggerUtil logINFO
+INFO: 
+
+RESPONSE_STATUS_CODE
+400
+*********
+
+
+</system-err>
+  </testcase>
+  <testcase classname="com.zone.restAPI.tests.userLogin.PostUserLoginTest" name="testLoginToSWMSWithValidUserData" time="2.934">
+    <failure message="The following asserts failed:
+	Invalid status code return expected [200] but found [400],
+	Invalid Status Return expected [Authentication successful] but found []" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
+	Invalid status code return expected [200] but found [400],
+	Invalid Status Return expected [Authentication successful] but found []
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.zone.restAPI.tests.userLogin.PostUserLoginTest.testLoginToSWMSWithValidUserData(PostUserLoginTest.java:29)
+</failure>
+    <system-out>testLoginToSWMSWithValidUserData
+</system-out>
+    <system-err>May 27, 2021 1:33:00 PM com.zone.restAPI.utils.LoggerUtil logINFO
+INFO: 
+
+HEADERS
+{Content-Type=application/json}
+*********
+
+
+May 27, 2021 1:33:00 PM com.zone.restAPI.utils.LoggerUtil logINFO
+INFO: 
+
+REQUEST_URL
+https://accounts.google.com/AddSession?hl=en&amp;continue=https://mail.google.com/mail&amp;service=mail&amp;ec=GAlAFw:8080/auth/login
+*********
+
+
+May 27, 2021 1:33:00 PM com.zone.restAPI.utils.LoggerUtil logINFO
+INFO: 
+
+REQUEST_BODY
+{&quot;agent&quot;:&quot;web&quot;,&quot;password&quot;:&quot;pw2022&quot;,&quot;userId&quot;:&quot;OPS$test123&quot;}
+*********
+
+
+May 27, 2021 1:33:03 PM com.zone.restAPI.utils.LoggerUtil logINFO
+INFO: 
+
+RESPONSE
+&lt;html lang=en&gt;&lt;meta charset=utf-8&gt;&lt;meta name=viewport content=&quot;initial-scale=1, minimum-scale=1, width=device-width&quot;&gt;&lt;title&gt;Error 400 (Bad Request)!!1&lt;/title&gt;&lt;style nonce=&quot;ZfuGKR7WuZjHhhDXG1YPbQ&quot;&gt;*{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{color:#222;text-align:unset;margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px;}* &gt; body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}pre{white-space:pre-wrap;}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}&lt;/style&gt;&lt;div id=&quot;af-error-container&quot;&gt;&lt;a href=//www.google.com&gt;&lt;span id=logo aria-label=Google&gt;&lt;/span&gt;&lt;/a&gt;&lt;p&gt;&lt;b&gt;400.&lt;/b&gt; &lt;ins&gt;That’s an error.&lt;/ins&gt;&lt;p&gt;The server cannot process the request because it is malformed. It should not be retried. &lt;ins&gt;That’s all we know.&lt;/ins&gt;&lt;/div&gt;
+*********
+
+
+May 27, 2021 1:33:03 PM com.zone.restAPI.utils.LoggerUtil logINFO
+INFO: 
+
+RESPONSE_STATUS_CODE
+400
+*********
+
+
+</system-err>
+  </testcase>
+</testsuite>

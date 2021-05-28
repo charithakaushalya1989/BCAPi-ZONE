@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6.215 sec <<< FAILURE!
+testLoginToSWMSWithInValidUserData(com.zone.restAPI.tests.userLogin.PostUserLoginTest)  Time elapsed: 2.201 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	Invalid status code return expected [401] but found [400],
+	Invalid Status Return expected [null] but found []
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.zone.restAPI.tests.userLogin.PostUserLoginTest.testLoginToSWMSWithInValidUserData(PostUserLoginTest.java:40)
+
+testLoginToSWMSWithValidUserData(com.zone.restAPI.tests.userLogin.PostUserLoginTest)  Time elapsed: 2.934 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	Invalid status code return expected [200] but found [400],
+	Invalid Status Return expected [Authentication successful] but found []
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.zone.restAPI.tests.userLogin.PostUserLoginTest.testLoginToSWMSWithValidUserData(PostUserLoginTest.java:29)
+

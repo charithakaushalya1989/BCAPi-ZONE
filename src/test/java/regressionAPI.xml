@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regressionAPI" verbose="1" configfailurepolicy="continue">
+    <test name="regressionAPI">
+<!--        <groups>-->
+<!--
+<!--        </groups>-->
+        <classes>
+
+
+          <class name="com.zone.restAPI.tests.userLogin.PostUserLoginTest"/>
+
+
+        </classes>
+    </test>
+</suite>
