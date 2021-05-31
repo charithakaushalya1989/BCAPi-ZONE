@@ -39,6 +39,7 @@ public class Headers
     {
         HashMap<String,String> headers = new HashMap<>();
         headers.put("Content-Type",APPLICATION_JSON);
+        headers.put("Authorization",Constant.TOKEN);
         return headers;
     }
 

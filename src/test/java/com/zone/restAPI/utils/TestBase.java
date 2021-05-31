@@ -44,7 +44,7 @@ public class TestBase extends ExtentReportListner{
             }
             else if(result.getStatus()==ITestResult.SUCCESS)
             {
-                test.log(Status.PASS, this.getClass().getSimpleName() + " Test Case Success and Title Verified");
+                test.log(Status.PASS, this.getClass().getSimpleName() + " Test Case Success");
             }
             else if(result.getStatus()==ITestResult.SKIP)
             {

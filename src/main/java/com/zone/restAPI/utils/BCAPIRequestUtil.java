@@ -21,10 +21,24 @@ public class BCAPIRequestUtil {
         return response;
     }
 
+    public static Response getUserDetails()
+    {
+        setExecutionEnvironmentUserDetails();
+        String body = "";
+        Response response = RestUtil.send(Headers.getHeaders(),body, URIs.USER_DETAILS, REQ_METHOD_GET);
+        return response;
+    }
+
 
     public static void setExecutionEnvironmentLogin() {
         RestUtil.API_HOST = Constant.BASE_URL+":"+Constant.PORT;
         RestUtil.BASE_PATH = LOGIN_BASE_PATH;
+        RestUtil.PORT = Constant.PORT;
+    }
+
+    public static void setExecutionEnvironmentUserDetails() {
+        RestUtil.API_HOST = Constant.BASE_URL;
+        RestUtil.BASE_PATH = ADMIN_BASE_PATH;
         RestUtil.PORT = Constant.PORT;
     }
 
