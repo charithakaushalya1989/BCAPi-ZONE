@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c43771b2-73c7-4e95-9a9a-f0e05bb5b76a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bc-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zone/restAPI/common/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zone/restAPI/common/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zone/restAPI/common/Headers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zone/restAPI/common/Headers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zone/restAPI/common/URIs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zone/restAPI/common/URIs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zone/restAPI/utils/BCAPIRequestUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zone/restAPI/utils/BCAPIRequestUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zone/restAPI/tests/userLogin/PostUserLoginTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zone/restAPI/utils/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zone/restAPI/utils/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Report/test/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Report/test/ExtentReport.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1t9nm1bmUKwPUgYReTlLuTaVMok" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zone/restAPI/response" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zone.restAPI.tests.userLogin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation\Zone24\Bc-Github\BC\src\main\java\com\zone\restAPI\response" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GetUserDetailsTest.verifyUserDetailsTest">
+    <configuration name="C:/Automation/Zone24/Bc-Github/BC/src/test/java/BCAPI.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BC" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/BCAPI.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUserDetailsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BC" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zone.restAPI.tests.userLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.zone.restAPI.tests.userLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.zone.restAPI.tests.userLogin.GetUserDetailsTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUserDetailsTest.getUserDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zone.restAPI.tests.userLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zone.restAPI.tests.userLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.zone.restAPI.tests.userLogin.GetUserDetailsTest" />
+      <option name="METHOD_NAME" value="getUserDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetUserDetailsTest.verifyUserDetailsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bc-api" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zone.restAPI.tests.userLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.zone.restAPI.tests.userLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.zone.restAPI.tests.userLogin.GetUserDetailsTest" />
+      <option name="METHOD_NAME" value="verifyUserDetailsTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostUserLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BC" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zone.restAPI.tests.userLogin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.zone.restAPI.tests.userLogin" />
+      <option name="MAIN_CLASS_NAME" value="com.zone.restAPI.tests.userLogin.PostUserLoginTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.PostUserLoginTest" />
+      <item itemvalue="TestNG.C:/Automation/Zone24/Bc-Github/BC/src/test/java/BCAPI.xml" />
+      <item itemvalue="TestNG.GetUserDetailsTest" />
+      <item itemvalue="TestNG.GetUserDetailsTest.getUserDetails" />
+      <item itemvalue="TestNG.GetUserDetailsTest.verifyUserDetailsTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GetUserDetailsTest.verifyUserDetailsTest" />
+        <item itemvalue="TestNG.GetUserDetailsTest" />
+        <item itemvalue="TestNG.GetUserDetailsTest.getUserDetails" />
+        <item itemvalue="TestNG.C:/Automation/Zone24/Bc-Github/BC/src/test/java/BCAPI.xml" />
+        <item itemvalue="TestNG.PostUserLoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c43771b2-73c7-4e95-9a9a-f0e05bb5b76a" name="Default Changelist" comment="" />
+      <created>1622190328205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622190328205</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Change xml">
+      <created>1622190415343</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622190415343</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change extend report">
+      <created>1622191400676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622191400677</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Change extend report">
+      <created>1622203247446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1622203247446</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Final">
+      <created>1622457940111</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622457940111</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change xml" />
+    <MESSAGE value="Change extend report" />
+    <MESSAGE value="Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final" />
+  </component>
+</project>
